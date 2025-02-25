@@ -9,6 +9,7 @@ it should form as an executable assuming you have g++, but if your system uses s
 for the secret phase, you can do whatever puzzle you lke to make it a challenge. i did an assembly bomb defusing exercise for the number 27:
 
 0000000000401480 <phase_1>:
+
   401480:	53                   	push   %rbx
   
   401481:	48 89 fb            	mov    %rdi,%rbx 
